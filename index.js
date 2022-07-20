@@ -15,6 +15,7 @@ db.query('SELECT * FROM Books_dd', (err, results) => {
     }
     //output the results
     console.log(results);
+    db.end();
 });
 
 
